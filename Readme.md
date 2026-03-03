@@ -1,9 +1,5 @@
 # Utilix
 
-Troubleshoot website, network, and CDN issues for fast resolutions.
-
-## Overview
-
 A comprehensive suite of diagnostic and utility tools designed for developers, network engineers, and security professionals to identify and resolve performance, connectivity, and security issues.
 
 ## Tool Categories

@@ -1,8 +1,8 @@
 # Utilix Site Configuration
 title: Utilix
-description: Troubleshoot website, network, and CDN issues for fast resolutions
+description: A comprehensive suite of diagnostic and utility tools
 author: Utilix Team
-url: https://your-username.github.io/Utilix
+url: https://80h3m14n.github.io/Utilix
 baseurl: /Utilix
 theme: minima
 plugins:
