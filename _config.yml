@@ -1,0 +1,15 @@
+# Utilix Site Configuration
+title: Utilix
+description: Troubleshoot website, network, and CDN issues for fast resolutions
+author: Utilix Team
+url: https://your-username.github.io/Utilix
+baseurl: /Utilix
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+show_excerpts: true
