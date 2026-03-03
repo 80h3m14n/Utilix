@@ -2,46 +2,89 @@
 
 A comprehensive suite of diagnostic and utility tools designed for developers, network engineers, and security professionals to identify and resolve performance, connectivity, and security issues.
 
-## Tool Categories
+## Featured Tools
 
-### Web Performance
-- **Website Speed Test** – Full page speed test with detailed performance insights
-- **Performance Test** – Asset performance metrics from multiple locations
-- **HTTP Header Checker** – Single asset request with curl to inspect HTTP response headers
-- **HTTP/2 Test** – Verify HTTP/2 protocol delivery
-- **Brotli Test** – Check server support for Brotli compression algorithm
+### Text Tools
 
-### Network Diagnostics
-- **IP Location Finder** – Lookup geographical location of IP addresses or hostnames
-- **DNS Checker** – Query DNS records from multiple servers
-- **Ping Test** – Simultaneous ping from multiple locations
-- **Ping IPv6 Test** – IPv6 address/hostname ping testing
-- **Traceroute Test** – Trace routing paths simultaneously from multiple locations
-- **BGP Looking Glass** – Comprehensive directory of BGP looking glass servers by region
+- **Text Reverser** – Reverse text strings
+- **Case Converter** – Convert text to different cases (UPPERCASE, lowercase, Title Case, etc.)
+- **Text Statistics** – Count characters, words, lines, and provide detailed text metrics
 
-### Security Testing
+### Encoding Tools
 
-- **Certificate Checker** – Decode and validate SSL/TLS certificates and intermediates
-- **Certificate Chain Composer** – Generate intermediate certificates
-
+- **Base64 Codec** – Encode and decode Base64 strings
+- **URL Codec** – Encode and decode URL components
+- **HTML Codec** – Encode and decode HTML entities
+- **CSV to JSON** – Convert CSV data to JSON format
 
 ### Cryptography Tools
-- **Hash Generator** – Generate hashes using various algorithms (MD5, SHA-1, SHA-256, etc.)
-- **Hash Checker** – Verify file integrity by comparing hashes
-- **Base64 Encoder/Decoder** – Encode and decode Base64 strings
-- **URL Encoder/Decoder** – Encode and decode URL components
-- **JWT Decoder** – Decode JSON Web Tokens (JWT) to inspect payload and header information
 
+- **MD5 Hash** – Generate MD5 hashes
+- **SHA256 Hash** – Generate SHA-256 hashes
+- **JWT Decoder** – Decode JSON Web Tokens to inspect payload and header information
 
-### Utilities
-- **Epoch Converter** – Convert Unix timestamps to human-readable format
-- **Hex Converter** – Convert between hexadecimal and decimal values
+### Generator Tools
 
+- **Password Generator** – Generate cryptographically secure random passwords
+- **UUID Generator** – Generate version 4 UUIDs
+- **Random Color** – Generate random hexadecimal colors
 
-## License 
+### Formatter Tools
+
+- **JSON Formatter** – Format, validate, and minify JSON
+- **Code Minifier** – Minify CSS, JavaScript, and HTML
+- **Color Converter** – Convert colors between HEX, RGB, and HSL formats
+
+## Recommended Tools to Add
+
+### Text Tools (Expansion)
+
+- **Regex Tester** – Test and validate regular expressions with live matching and capture groups
+- **Diff Checker** – Compare two text blocks side-by-side with line-by-line differences
+- **Lorem Ipsum Generator** – Generate placeholder text for mockups and prototypes
+- **String Escaper/Unescaper** – Escape/unescape strings for JSON, XML, SQL, and JavaScript contexts
+- **Duplicate Line Remover** – Remove duplicate lines from text with case-sensitivity options
+
+### Encoding Tools (Expansion)
+
+- **ASCII/Unicode Converter** – Convert text to ASCII/Unicode code points
+- **Morse Code Converter** – Convert text to Morse code and vice versa
+
+### Cryptography Tools (Expansion)
+
+- **SHA-512 Hash** – Generate SHA-512 hashes
+- **HMAC Generator** – Generate HMAC signatures with customizable algorithms
+- **CRC-32 Checksum** – Calculate CRC-32 checksums for file integrity verification
+
+### Generator Tools (Expansion)
+
+- **QR Code Generator** – Generate QR codes from text, URLs, or structured data
+- **Slug Generator** – Create URL-friendly slugs from text
+- **Cron Expression Validator** – Validate and explain cron schedule syntax
+
+### Formatter Tools (Expansion)
+
+- **YAML/JSON Converter** – Convert bidirectionally between YAML and JSON formats
+- **HTML/Markdown Converter** – Convert HTML to Markdown and vice versa
+- **XML Formatter** – Format, validate, and minify XML documents
+
+### Date & Time Tools (New Category)
+
+- **Unix Timestamp Converter** – Convert Unix timestamps to human-readable dates and vice versa
+- **ISO 8601 Date Converter** – Convert between ISO 8601 format and various date formats
+- **Timezone Converter** – Convert times across different timezones
+
+### Web Performance & Network (Future Expansion)
+
+- **Website Speed Test** – Full page speed test with detailed performance insights
+- **IP Location Finder** – Lookup geographical location of IP addresses
+- **DNS Checker** – Query DNS records across multiple nameservers
+- **Ping Test** – Simultaneous ping from multiple locations
+- **Certificate Checker** – Decode and validate SSL/TLS certificates
+
+## License
 
 Free to use and modify under the MIT License. See [LICENSE](LICENSE) for details.
-
 
 ## Attribution
 
