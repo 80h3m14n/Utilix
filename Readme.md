@@ -2,7 +2,8 @@
 
 A comprehensive suite of diagnostic and utility tools designed for developers, network engineers, and security professionals to identify and resolve performance, connectivity, and security issues.
 
-![Pre-release](https://img.shields.io/github/pre-release/80h3m14n/Utilix.svg)
+
+
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/80h3m14n/Utilix)
 
 
