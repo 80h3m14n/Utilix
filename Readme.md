@@ -3,7 +3,6 @@
 A comprehensive suite of diagnostic and utility tools designed for developers, network engineers, and security professionals to identify and resolve performance, connectivity, and security issues.
 
 
-
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/80h3m14n/Utilix)
 
 
@@ -11,81 +10,143 @@ A comprehensive suite of diagnostic and utility tools designed for developers, n
 
 ### Text Tools
 
-- **Text Reverser** – Reverse text strings
-- **Case Converter** – Convert text to different cases (UPPERCASE, lowercase, Title Case, etc.)
-- **Text Statistics** – Count characters, words, lines, and provide detailed text metrics
+| Tool | Description |
+|------|-------------|
+| **Text Reverser** | Reverse text strings |
+| **Case Converter** | Convert text to different cases (UPPERCASE, lowercase, Title Case, etc.) |
+| **Text Statistics** | Count characters, words, lines, and provide detailed text metrics |
+| - **Regex Tester** | – Test and validate regular expressions with live matching and capture groups
+| - **Diff Checker** | – Compare two text blocks side-by-side with line-by-line differences
+| - **Lorem Ipsum Generator** | – Generate placeholder text for mockups and prototypes
+| - **String Escaper/Unescaper** | – Escape/unescape strings for JSON, XML, SQL, and JavaScript contexts
+| - **Duplicate Line Remover** | – Remove duplicate lines from text with case-sensitivity options
+
 
 ### Encoding Tools
 
-- **Base64 Codec** – Encode and decode Base64 strings
-- **URL Codec** – Encode and decode URL components
-- **HTML Codec** – Encode and decode HTML entities
-- **CSV to JSON** – Convert CSV data to JSON format
+| Tool | Description |
+|------|-------------|
+| **Base64 Codec** | Encode and decode Base64 strings |
+| **URL Codec** | Encode and decode URL components |
+| **HTML Codec** | Encode and decode HTML entities |
+| **CSV to JSON** | Convert CSV data to JSON format |
+| - **ASCII/Unicode Converter** | – Convert text to ASCII/Unicode code points
+| - **Morse Code Converter** | – Convert text to Morse code and vice versa
+
 
 ### Cryptography Tools
 
-- **MD5 Hash** – Generate MD5 hashes
-- **SHA256 Hash** – Generate SHA-256 hashes
-- **JWT Decoder** – Decode JSON Web Tokens to inspect payload and header information
+| Tool | Description |
+|------|-------------|
+| **MD5 Hash** | Generate MD5 hashes |
+| **SHA256 Hash** | Generate SHA-256 hashes |
+| **JWT Decoder** | Decode JSON Web Tokens to inspect payload and header information |
+| Tool | Description |
+|------|-------------|
+| - **SHA-512 Hash** | – Generate SHA-512 hashes
+| - **HMAC Generator** | – Generate HMAC signatures with customizable algorithms
+| - **CRC-32 Checksum** | – Calculate CRC-32 checksums for file integrity verification
 
 ### Generator Tools
 
-- **Password Generator** – Generate cryptographically secure random passwords
-- **UUID Generator** – Generate version 4 UUIDs
-- **Random Color** – Generate random hexadecimal colors
+| Tool | Description |
+|------|-------------|
+| **Password Generator** | Generate cryptographically secure random passwords |
+| - **UUID Generator** | – Generate version 4 UUIDs |
+| - **Random Color** | – Generate random hexadecimal colors |
+| - **QR Code Generator** | – Generate QR codes from text, URLs, or structured data
+| - **Slug Generator** | – Create URL-friendly slugs from text
+| - **Cron Expression Validator** | – Validate and explain cron schedule syntax
+
+
 
 ### Formatter Tools
 
-- **JSON Formatter** – Format, validate, and minify JSON
-- **Code Minifier** – Minify CSS, JavaScript, and HTML
-- **Color Converter** – Convert colors between HEX, RGB, and HSL formats
+| Tool | Description |
+|------|-------------|
+| **JSON Formatter** | Format, validate, and minify JSON
+| **Code Minifier** | Minify CSS, JavaScript, and HTML
+| **Color Converter** | Convert colors between HEX, RGB, and HSL formats
+| - **YAML/JSON Converter** | – Convert bidirectionally between YAML and JSON formats
+| - **HTML/Markdown Converter** | – Convert HTML to Markdown and vice versa
+| - **XML Formatter** | – Format, validate, and minify XML documents
 
-## Recommended Tools to Add
+### Date & Time Tools
 
-### Text Tools (Expansion)
+| Tool | Description |
+|------|-------------|
+| **Unix Timestamp Converter** | Convert Unix timestamps to human-readable dates and vice versa
+| **ISO 8601 Date Converter** | Convert between ISO 8601 format and various date formats
+| **Timezone Converter** | Convert times across different timezones
 
-- **Regex Tester** – Test and validate regular expressions with live matching and capture groups
-- **Diff Checker** – Compare two text blocks side-by-side with line-by-line differences
-- **Lorem Ipsum Generator** – Generate placeholder text for mockups and prototypes
-- **String Escaper/Unescaper** – Escape/unescape strings for JSON, XML, SQL, and JavaScript contexts
-- **Duplicate Line Remover** – Remove duplicate lines from text with case-sensitivity options
 
-### Encoding Tools (Expansion)
+### Web Performance & Network
 
-- **ASCII/Unicode Converter** – Convert text to ASCII/Unicode code points
-- **Morse Code Converter** – Convert text to Morse code and vice versa
+| Tool | Description |
+|------|-------------|
+| - **Website Speed Test** | – Full page speed test with detailed performance insights
+| - **IP Location Finder** | – Lookup geographical location of IP addresses
+| - **DNS Checker** | – Query DNS records across multiple nameservers
+| - **Ping Test** | – Simultaneous ping from multiple locations
+| - **Certificate Checker** | – Decode and validate SSL/TLS certificates
 
-### Cryptography Tools (Expansion)
 
-- **SHA-512 Hash** – Generate SHA-512 hashes
-- **HMAC Generator** – Generate HMAC signatures with customizable algorithms
-- **CRC-32 Checksum** – Calculate CRC-32 checksums for file integrity verification
 
-### Generator Tools (Expansion)
+## Project Structure
 
-- **QR Code Generator** – Generate QR codes from text, URLs, or structured data
-- **Slug Generator** – Create URL-friendly slugs from text
-- **Cron Expression Validator** – Validate and explain cron schedule syntax
+```
+📂Utilix
+|── assets/css/
+├    ── style.css    
+|── src/js/
+├    ── app.js  
+├    ── core.js               // Main logic
+├    ── crypto-tools.js 
+├    ── datetime-tools.js
+├    ── encoding-tools.js  
+├    ── formatters-tools.js 
+├    ── generators-tools.js 
+├    ── index.js          
+├    ── network-tools.js    
+├    ── text-tools.js 
+├    ── toolRegistry.js  
+├    ── utils.js              // Shared helpers   
+├── index.html
+└──README.md
+```
 
-### Formatter Tools (Expansion)
+## Build
 
-- **YAML/JSON Converter** – Convert bidirectionally between YAML and JSON formats
-- **HTML/Markdown Converter** – Convert HTML to Markdown and vice versa
-- **XML Formatter** – Format, validate, and minify XML documents
+Install webpack-dev-server
 
-### Date & Time Tools (New Category)
+```bash
+npm install
+npm install --save-dev webpack-dev-server
+```
 
-- **Unix Timestamp Converter** – Convert Unix timestamps to human-readable dates and vice versa
-- **ISO 8601 Date Converter** – Convert between ISO 8601 format and various date formats
-- **Timezone Converter** – Convert times across different timezones
+Run the development server
 
-### Web Performance & Network (Future Expansion)
+```bash
+npm start
+# or
+npx webpack serve
+```
 
-- **Website Speed Test** – Full page speed test with detailed performance insights
-- **IP Location Finder** – Lookup geographical location of IP addresses
-- **DNS Checker** – Query DNS records across multiple nameservers
-- **Ping Test** – Simultaneous ping from multiple locations
-- **Certificate Checker** – Decode and validate SSL/TLS certificates
+Production build
+
+```bash
+npm run build
+# or
+npx webpack --mode production
+```
+
+Github pages deployment
+
+```bash
+npm install --save-dev gh-pages
+npm run deploy
+```
+
 
 ## License
 
