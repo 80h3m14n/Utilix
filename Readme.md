@@ -10,71 +10,72 @@ A comprehensive suite of diagnostic and utility tools designed for developers, n
 
 ### Text Tools
 
-| Tool | Description |
-|------|-------------|
+| Tool               | Description                     |
+|--------------------|---------------------------------|
 | **Text Reverser** | Reverse text strings |
 | **Case Converter** | Convert text to different cases (UPPERCASE, lowercase, Title Case, etc.) |
 | **Text Statistics** | Count characters, words, lines, and provide detailed text metrics |
-| - **Regex Tester** | – Test and validate regular expressions with live matching and capture groups
-| - **Diff Checker** | – Compare two text blocks side-by-side with line-by-line differences
-| - **Lorem Ipsum Generator** | – Generate placeholder text for mockups and prototypes
-| - **String Escaper/Unescaper** | – Escape/unescape strings for JSON, XML, SQL, and JavaScript contexts
-| - **Duplicate Line Remover** | – Remove duplicate lines from text with case-sensitivity options
+| **Regex Tester** | – Test and validate regular expressions with live matching and capture groups
+| **Diff Checker** | – Compare two text blocks side-by-side with line-by-line differences
+| **Lorem Ipsum Generator** | – Generate placeholder text for mockups and prototypes
+| **String Escaper/Unescaper** | – Escape/unescape strings for JSON, XML, SQL, and JavaScript contexts
+| **Duplicate Line Remover** | – Remove duplicate lines from text with case-sensitivity options
 
 
 ### Encoding Tools
 
-| Tool | Description |
-|------|-------------|
+| Tool               | Description                     |
+|--------------------|---------------------------------|
 | **Base64 Codec** | Encode and decode Base64 strings |
 | **URL Codec** | Encode and decode URL components |
 | **HTML Codec** | Encode and decode HTML entities |
 | **CSV to JSON** | Convert CSV data to JSON format |
-| - **ASCII/Unicode Converter** | – Convert text to ASCII/Unicode code points
-| - **Morse Code Converter** | – Convert text to Morse code and vice versa
+| **ASCII/Unicode Converter** | – Convert text to ASCII/Unicode code points
+| **Morse Code Converter** | – Convert text to Morse code and vice versa
 
 
 ### Cryptography Tools
 
-| Tool | Description |
-|------|-------------|
+| Tool               | Description                     |
+|--------------------|---------------------------------|
 | **MD5 Hash** | Generate MD5 hashes |
 | **SHA256 Hash** | Generate SHA-256 hashes |
+| **SHA512 Hash** | Generate SHA-512 hashes |
 | **JWT Decoder** | Decode JSON Web Tokens to inspect payload and header information |
-| Tool | Description |
-|------|-------------|
-| - **SHA-512 Hash** | – Generate SHA-512 hashes
-| - **HMAC Generator** | – Generate HMAC signatures with customizable algorithms
-| - **CRC-32 Checksum** | – Calculate CRC-32 checksums for file integrity verification
+| **SHA-512 Hash** | – Generate SHA-512 hashes
+| **HMAC Generator** | – Generate HMAC signatures with customizable algorithms
+| **CRC-32 Checksum** | – Calculate CRC-32 checksums for file integrity verification
 
 ### Generator Tools
 
-| Tool | Description |
-|------|-------------|
+| Tool               | Description                     |
+|--------------------|---------------------------------|
 | **Password Generator** | Generate cryptographically secure random passwords |
-| - **UUID Generator** | – Generate version 4 UUIDs |
-| - **Random Color** | – Generate random hexadecimal colors |
-| - **QR Code Generator** | – Generate QR codes from text, URLs, or structured data
-| - **Slug Generator** | – Create URL-friendly slugs from text
-| - **Cron Expression Validator** | – Validate and explain cron schedule syntax
+| **UUID Generator** | – Generate version 4 UUIDs |
+| **Random Color** | – Generate random hexadecimal colors |
+| **QR Code Generator** | – Generate QR codes from text, URLs, or structured data
+| **Slug Generator** | – Create URL-friendly slugs from text
+| **Cron Expression Validator** | – Validate and explain cron schedule syntax
 
 
 
 ### Formatter Tools
 
-| Tool | Description |
-|------|-------------|
+| Tool               | Description                     |
+|--------------------|---------------------------------|
 | **JSON Formatter** | Format, validate, and minify JSON
 | **Code Minifier** | Minify CSS, JavaScript, and HTML
 | **Color Converter** | Convert colors between HEX, RGB, and HSL formats
-| - **YAML/JSON Converter** | – Convert bidirectionally between YAML and JSON formats
-| - **HTML/Markdown Converter** | – Convert HTML to Markdown and vice versa
-| - **XML Formatter** | – Format, validate, and minify XML documents
+| **YAML/JSON Converter** | – Convert bidirectionally between YAML and JSON formats
+| **HTML/Markdown Converter** | – Convert HTML to Markdown and vice versa
+| **XML Formatter** | – Format, validate, and minify XML documents
+
+
 
 ### Date & Time Tools
 
-| Tool | Description |
-|------|-------------|
+| Tool               | Description                     |
+|--------------------|---------------------------------|
 | **Unix Timestamp Converter** | Convert Unix timestamps to human-readable dates and vice versa
 | **ISO 8601 Date Converter** | Convert between ISO 8601 format and various date formats
 | **Timezone Converter** | Convert times across different timezones
@@ -82,14 +83,21 @@ A comprehensive suite of diagnostic and utility tools designed for developers, n
 
 ### Web Performance & Network
 
-| Tool | Description |
-|------|-------------|
-| - **Website Speed Test** | – Full page speed test with detailed performance insights
-| - **IP Location Finder** | – Lookup geographical location of IP addresses
-| - **DNS Checker** | – Query DNS records across multiple nameservers
-| - **Ping Test** | – Simultaneous ping from multiple locations
-| - **Certificate Checker** | – Decode and validate SSL/TLS certificates
+| Tool               | Description                     |
+|--------------------|---------------------------------|
+| **Website Speed Test** | – Full page speed test with detailed performance insights
+| **IP Location Finder** | – Lookup geographical location of IP addresses
+| **DNS Checker** | – Query DNS records across multiple nameservers
+| **Ping Test** | – Simultaneous ping from multiple locations
+| **Certificate Checker** | – Decode and validate SSL/TLS certificates
 
+### Math & Converter tools
+
+| Tool               | Description                     |
+|--------------------|---------------------------------|
+| **BMI calculator** |  - Calculate body mass index
+| **Unit converter** |  - Convert between various units of measurement (length, weight, volume, temperature, etc.) |
+| **Number Base Converter** | – Convert numbers between binary, octal, decimal, and hexadecimal bases |
 
 
 ## Project Structure

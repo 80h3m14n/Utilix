@@ -88,6 +88,14 @@ import {
   renderPingTest,
   executePingTest,
 } from "./network-tools.js";
+import {
+  renderBmiCalculator,
+  executeBmiCalculator,
+  renderUnitConverter,
+  executeUnitConverter,
+  renderNumberBaseConverter,
+  executeNumberBaseConverter,
+} from "./math-tools.js";
 
 export const TOOLS = [
   {
@@ -391,5 +399,30 @@ export const TOOLS = [
     description: "Measure HTTP round-trip time",
     render: renderPingTest,
     execute: executePingTest,
+  },
+
+  {
+    id: "bmi-calculator",
+    name: "BMI Calculator",
+    category: "math",
+    description: "Calculate body mass index",
+    render: renderBmiCalculator,
+    execute: executeBmiCalculator,
+  },
+  {
+    id: "unit-converter",
+    name: "Unit Converter",
+    category: "math",
+    description: "Convert between common units of measurement",
+    render: renderUnitConverter,
+    execute: executeUnitConverter,
+  },
+  {
+    id: "number-base-converter",
+    name: "Number Base Converter",
+    category: "math",
+    description: "Convert numbers between common bases",
+    render: renderNumberBaseConverter,
+    execute: executeNumberBaseConverter,
   },
 ];
